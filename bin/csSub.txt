@@ -1,0 +1,66 @@
+Engineering Mathematics - III
+Analog and Digital Electronics
+Data Structures and Applications
+Computer Organization
+Unix and Shell Programming
+Discrete Mathematical structures
+Analog and Digital Electronics Laboratory
+Data Structures Laboratory
+Additional Mathematics - I
+Engineering Mathematics - IV
+Software Engineering
+Design and Analysis of Algorithms
+Microprocessors and microcontrollers
+Object Oriented Programming with JAVA
+Data communications
+Design and Analysis of Algorithm Laboratory
+Microprocessors Laboratory
+Additional Mathematics-II
+Management and Entrepreneurship for IT Industry
+Computer Networks
+Database Management System
+Automata theory and Computability
+Object Oriented Modeling and Design
+Introduction to Software Testing
+Advanced JAVA and J2EE
+Advanced Algorithms
+Cryptography, Network Security and Cyber Law
+Computer Graphics and Visualization
+System Software and Compiler Design
+Operating Systems
+Data Mining and Data Warehousing
+Software Architecture and Design Patterns
+Operation research
+Distributed Computing system
+Advanced Computer Architectures
+Advanced DBMS
+Artificial Intelligence
+C Programming and .Net
+Data Warehousing and Data Mining
+Digital Image Processing
+Digital Signal Processing
+Embedded Computing Systems
+Fuzzy Logic
+Game Theory
+Java and J2EE
+Multimedia Computing
+Neural Networks
+Object-Oriented Modeling and Design
+Programming the Web
+Storage Area Networks
+Networks Laboratory 
+Web Programming Laboratory 
+ARM Based System Design
+Adhoc Networks
+Clouds, Grids and Clusters
+Information and Network Security
+Microcontroller-Based Systems
+Multi-core Architecture and Programming
+Network Management Systems
+Services Oriented Architecture
+Software Architectures
+Software Testing
+System Modeling and Simulation
+VLSI Design and Algorithms
+Web 2.0 and Rich Internet Applications
+Wireless Networks and Mobile Computing

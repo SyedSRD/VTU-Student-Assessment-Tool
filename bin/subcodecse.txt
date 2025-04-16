@@ -1,0 +1,42 @@
+7. Object-Oriented Programming
+1. Engineering Mathematics – IV
+2. Software Engineering
+3. Design and Analysis of Algorithms
+4. Microprocessors and microcontrollers
+5. Object Oriented Programming with JAVA
+6. Data communications
+
+1. Analog and Digital Electronics
+2. Data Structures and Application
+3. Computer Organization
+4. Unix and Shell Programming
+5. ENGINEERING MATHEMATICS – III
+6. Discrete Mathematical structures
+7. Advanced JAVA and J2EE
+8. Advanced Algorithm
+9. Mobile Application Development
+10. Big Data Analytics
+11. Mobile Computing
+12. Python Application Programming
+13. Service Oriented Architecture
+14. Multicore Architecture and Programming
+1. SOFTWARE ENGINEERING
+2. SYSTEMS SOFTWARE
+3. OPERATING SYSTEMS
+5. COMPUTER NETWORKS – I
+6. FORMAL LANGUAGES AND AUTOMATA THEORY
+1. Management and Entrepreneurship
+2. Unix System Programming
+3. Compiler Design
+5. Computer Graphics and Visualization
+6. Operational Research
+1. ADVANCED COMPUTER ARCHITECTURES
+2. C# PROGRAMMING AND .NET
+3. EMBEDDED COMPUTING SYSTEMS
+4. JAVA AND J2EE
+5. OBJECT-ORIENTED MODELING AND DESIGN
+6. PROGRAMMING THE WEB
+1. Software Architectures
+2. System Modelling and Simulation
+4. WEB 2.0 and RICH INTERNET APPLICATION
+5. Software Testing

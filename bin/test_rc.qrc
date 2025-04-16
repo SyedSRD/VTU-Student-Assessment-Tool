@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>D:/aa-result pro/Backup-of-DefaultDesktop-small.jpg</file>
+    <file>Backup-of-DefaultDesktop-small.jpg</file>
+    <file>D:/aa-result pro/images (1).png</file>
+    <file>pic1.png</file>
+    <file>D:/aa-result pro/pic1.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>D:/aa-result pro/images.png</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>D:/aa-result pro/download.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

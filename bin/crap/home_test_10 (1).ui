@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>946</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> .QFrame { background-color: qlineargradient(spread:pad, x1:0.432034, y1:0.75, x2:0.292, y2:0, stop:0.0847458 rgba(61, 61, 61, 228), stop:1 rgba(254, 254, 254, 255)) }
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1350</width>
+     <height>839</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QWidget{background-color:qlineargradient(spread:pad, x1:0.53, y1:0.454409, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background-image:url(&quot;C:\Users\SYED\Desktop\cat.jpg&quot;)}
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> .QFrame { background-color :qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(0, 3,5, 255), stop:1 rgba(30,130 , 240, 255)) }</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>5</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>9</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>90</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QToolButton" name="btn_home">
+           <property name="toolTip">
+            <string>Home</string>
+           </property>
+           <property name="statusTip">
+            <string>Home page of the application</string>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="text">
+            <string>Home</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../VTUMarksAnalysis/bin/icon/home.duckduckgo.com.png</normaloff>../../../VTUMarksAnalysis/bin/icon/home.duckduckgo.com.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::DelayedPopup</enum>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonIconOnly</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+           <property name="arrowType">
+            <enum>Qt::NoArrow</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="btn_new">
+           <property name="toolTip">
+            <string>New </string>
+           </property>
+           <property name="statusTip">
+            <string>create,edit,scrap the marks</string>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QToolButton{background-image:url(&quot;C:UsersSYEDDesktopicon.ico&quot;)}</string>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="text">
+            <string>New</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../VTUMarksAnalysis/bin/icon/new.png</normaloff>../../../VTUMarksAnalysis/bin/icon/new.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::DelayedPopup</enum>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonIconOnly</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+           <property name="arrowType">
+            <enum>Qt::NoArrow</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="btn_analyse">
+           <property name="toolTip">
+            <string>Analyse</string>
+           </property>
+           <property name="statusTip">
+            <string>analyse the data/marks</string>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="text">
+            <string>Analyse</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../project files/python/qtui-py/icon/bw-analysis.png</normaloff>../../../project files/python/qtui-py/icon/bw-analysis.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::DelayedPopup</enum>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonIconOnly</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+           <property name="arrowType">
+            <enum>Qt::NoArrow</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QToolButton" name="btn_setting">
+           <property name="toolTip">
+            <string>Settings</string>
+           </property>
+           <property name="statusTip">
+            <string>set the costume settings to default</string>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+           </property>
+           <property name="text">
+            <string>Settings</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../project files/python/qtui-py/icon/Settings.ico</normaloff>../../../project files/python/qtui-py/icon/Settings.ico</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>72</width>
+             <height>72</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::DelayedPopup</enum>
+           </property>
+           <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonIconOnly</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+           <property name="arrowType">
+            <enum>Qt::NoArrow</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>200</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">.QStackedWidget{margin:0px;}
+.QWidget{
+				
+				background-color:rgb(235, 235, 235)}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="stk_home">
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="toolTipDuration">
+          <number>1000</number>
+         </property>
+         <property name="statusTip">
+          <string>Home Page</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QWidget{  
+     border-style:inset;
+ 	 background-image:url(./cat2.jpg);
+	 background-repeat:no repeat;
+	 background-position:center;
+	 background-fill:yes;
+}</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <item row="2" column="0" colspan="3">
+           <widget class="QWebView" name="hmWeb">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="url">
+             <url>
+              <string>about:blank</string>
+             </url>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="hmLbl">
+            <property name="text">
+             <string>  Current link :</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="hmbtn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>192</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">.QPushButton {background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(70, 73,75, 255), stop:1 rgba(60,160 , 250, 255));
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: grey;
+    font: bold 14px;
+    min-width: 10em;
+    padding: 6px;
+	margin:4px}
+.QPushButton:pressed { background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(10, 13,15, 255), stop:1 rgba(20,80 , 180, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+	color:grey;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+            </property>
+            <property name="text">
+             <string>Go!</string>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="hmLE">
+            <property name="styleSheet">
+             <string notr="true">.QLineEdit{ background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(255, 255,255, 255), stop:1 rgba(20,80 , 180, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="verticalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>5</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="stk_new">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>15</number>
+          </property>
+          <item>
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="statusTip">
+             <string>Cancels the current download</string>
+            </property>
+            <property name="tabPosition">
+             <enum>QTabWidget::North</enum>
+            </property>
+            <property name="tabShape">
+             <enum>QTabWidget::Rounded</enum>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="movable">
+             <bool>false</bool>
+            </property>
+            <widget class="QWidget" name="tb_root">
+             <attribute name="title">
+              <string>Root</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_5">
+              <item row="0" column="0">
+               <widget class="QLabel" name="lbRtable">
+                <property name="text">
+                 <string>Table:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QComboBox" name="cbRtable">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="toolTip">
+                 <string/>
+                </property>
+                <property name="statusTip">
+                 <string>select subjects</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="5">
+               <widget class="QTableWidget" name="tblWR">
+                <property name="rowCount">
+                 <number>1</number>
+                </property>
+                <property name="columnCount">
+                 <number>1</number>
+                </property>
+                <row>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </row>
+                <column/>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QPushButton" name="pbtnRadd">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Reset to orignal contents</string>
+                </property>
+                <property name="text">
+                 <string>Add Row</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QPushButton" name="pbtnRrm">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Save the content to selected file .</string>
+                </property>
+                <property name="text">
+                 <string>Remove Row</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QPushButton" name="pbtnRset">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Reset to orignal contents</string>
+                </property>
+                <property name="text">
+                 <string>Reset</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4">
+               <widget class="QPushButton" name="pbtnRsv">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Save the content to selected file .</string>
+                </property>
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tb_Internal">
+             <property name="statusTip">
+              <string>Internal</string>
+             </property>
+             <attribute name="title">
+              <string>Internal</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="1" column="5">
+               <widget class="QLabel" name="InLbSub">
+                <property name="text">
+                 <string>Subject :</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="6" colspan="2">
+               <widget class="QComboBox" name="InCbSub">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="toolTip">
+                 <string/>
+                </property>
+                <property name="statusTip">
+                 <string>select subjects</string>
+                </property>
+                <property name="maxVisibleItems">
+                 <number>5</number>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QLabel" name="InLbYear">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>50</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="statusTip">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string>  Year :</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="5">
+               <spacer name="verticalSpacer_13">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>5</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="4">
+               <spacer name="verticalSpacer_9">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Maximum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="1" column="0">
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>5</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="5" column="2" colspan="9">
+               <widget class="Line" name="line_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2" colspan="9">
+               <widget class="QTableWidget" name="IntblW">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="rowCount">
+                 <number>2</number>
+                </property>
+                <row>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                </row>
+                <column>
+                 <property name="text">
+                  <string>USN</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>First Test</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Second Test</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Third Test</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Average</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Scored</string>
+                 </property>
+                </column>
+                <item row="0" column="0">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="background">
+                  <brush brushstyle="NoBrush">
+                   <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </brush>
+                 </property>
+                 <property name="foreground">
+                  <brush brushstyle="Dense7Pattern">
+                   <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </brush>
+                 </property>
+                </item>
+                <item row="0" column="5">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="textAlignment">
+                  <set>AlignCenter</set>
+                 </property>
+                 <property name="background">
+                  <brush brushstyle="NoBrush">
+                   <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </brush>
+                 </property>
+                 <property name="foreground">
+                  <brush brushstyle="Dense2Pattern">
+                   <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                   </color>
+                  </brush>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QPushButton" name="InbtnAdd">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Add</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3">
+               <widget class="QPushButton" name="InbtnRm">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Remove</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="10">
+               <widget class="QPushButton" name="InbtnSave">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Save the content to selected file .</string>
+                </property>
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="9">
+               <widget class="QPushButton" name="InbtnRst">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Reset to orignal contents</string>
+                </property>
+                <property name="text">
+                 <string>Reset</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="6" colspan="2">
+               <widget class="QLineEdit" name="InLeSU">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="5">
+               <widget class="QLabel" name="InLbSU">
+                <property name="text">
+                 <string>Search by USN:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QSpinBox" name="InSbYear">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>100</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="statusTip">
+                 <string>select year</string>
+                </property>
+                <property name="minimum">
+                 <number>2018</number>
+                </property>
+                <property name="maximum">
+                 <number>3000</number>
+                </property>
+                <property name="singleStep">
+                 <number>1</number>
+                </property>
+                <property name="displayIntegerBase">
+                 <number>10</number>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="10">
+               <widget class="QCheckBox" name="InChSave">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Save as CSV</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tb_edit">
+             <property name="statusTip">
+              <string>edit database file</string>
+             </property>
+             <attribute name="title">
+              <string>Edit</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <property name="horizontalSpacing">
+               <number>9</number>
+              </property>
+              <item row="4" column="6">
+               <widget class="QPushButton" name="EdbtnRst">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Reset to orignal contents</string>
+                </property>
+                <property name="text">
+                 <string>Reset</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="7">
+               <widget class="QTableWidget" name="EdtblW">
+                <property name="font">
+                 <font>
+                  <italic>false</italic>
+                 </font>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::WinPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="selectionBehavior">
+                 <enum>QAbstractItemView::SelectItems</enum>
+                </property>
+                <property name="rowCount">
+                 <number>1</number>
+                </property>
+                <row>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </row>
+                <column>
+                 <property name="text">
+                  <string>USN</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Scheme</string>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>50</weight>
+                   <bold>false</bold>
+                   <strikeout>false</strikeout>
+                  </font>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Department</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Gender</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>E-Mail</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Phone Number</string>
+                 </property>
+                </column>
+                <item row="0" column="2">
+                 <property name="text">
+                  <string>hh</string>
+                 </property>
+                 <property name="flags">
+                  <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="EdLbSN">
+                <property name="text">
+                 <string>Search by Name:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1" colspan="7">
+               <widget class="Line" name="line_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="7">
+               <widget class="QPushButton" name="EdbtnSave">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="statusTip">
+                 <string>Save the content to selected file .</string>
+                </property>
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>5</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLineEdit" name="EdLeSN">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>435</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QLabel" name="EdLbSU">
+                <property name="text">
+                 <string>By USN:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4" colspan="4">
+               <widget class="QLineEdit" name="EdLeSU">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>435</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QPushButton" name="EdbtnLd">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>200</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                  <underline>false</underline>
+                  <strikeout>false</strikeout>
+                  <kerning>true</kerning>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>load table</string>
+                </property>
+                <property name="statusTip">
+                 <string>load student table</string>
+                </property>
+                <property name="text">
+                 <string>LOAD</string>
+                </property>
+                <property name="shortcut">
+                 <string>Ctrl+L</string>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tb_scrap">
+             <property name="statusTip">
+              <string>get data from server</string>
+             </property>
+             <attribute name="title">
+              <string>Scrap</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_2">
+              <property name="horizontalSpacing">
+               <number>20</number>
+              </property>
+              <property name="verticalSpacing">
+               <number>50</number>
+              </property>
+              <item row="0" column="0" rowspan="2">
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>10</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="4" column="1" colspan="3">
+               <widget class="QLineEdit" name="ScpLeRV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>25</height>
+                 </size>
+                </property>
+                <property name="statusTip">
+                 <string>Plz specify the current url for results</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLineEdit{ background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(255, 255,255, 255), stop:1 rgba(255,255 , 255, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="placeholderText">
+                 <string>http://results.vtu.ac.in/results17/result_page.php?usn=</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="4">
+               <widget class="QPushButton" name="ScpbtnRV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>34</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="statusTip">
+                 <string>Starts Scraping</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton:pressed {background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(70, 73,75,240), stop:1 rgba(50,180 , 255,255));
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: grey;
+    font: bold 14px;
+	color:black;
+    min-width: 7em;
+    padding: 6px;}
+.QPushButton { background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(10, 13,15, 255), stop:1 rgba(20,80 , 180, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+	color:grey;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="text">
+                 <string>RV</string>
+                </property>
+                <property name="autoDefault">
+                 <bool>true</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1" colspan="3">
+               <widget class="QLineEdit" name="ScpLeRg">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>25</height>
+                 </size>
+                </property>
+                <property name="statusTip">
+                 <string>Plz specify the current url for results</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLineEdit{ background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(255, 255,255, 255), stop:1 rgba(255,255 , 255, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="placeholderText">
+                 <string>http://results.vtu.ac.in/results17/result_page.php?usn=</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1" colspan="3">
+               <widget class="QLineEdit" name="ScpLeAr">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>25</height>
+                 </size>
+                </property>
+                <property name="statusTip">
+                 <string>Plz specify the current url for results</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLineEdit{ background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(255, 255,255, 255), stop:1 rgba(255,255 , 255, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="placeholderText">
+                 <string>http://results.vtu.ac.in/results17/result_page.php?usn=</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="4">
+               <widget class="QPushButton" name="ScpbtnRg">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>34</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="statusTip">
+                 <string>Starts Scraping</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton:pressed {background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(70, 73,75, 240), stop:1 rgba(50,180 , 255, 255));
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: grey;
+    font: bold 14px;
+	color:black;
+    min-width: 7em;
+    padding: 6px;}
+.QPushButton { background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(10, 13,15, 255), stop:1 rgba(20,80 , 180, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+	color:grey;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="text">
+                 <string>Regular</string>
+                </property>
+                <property name="autoDefault">
+                 <bool>true</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="4">
+               <widget class="QPushButton" name="ScpbtnAr">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>116</width>
+                  <height>34</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="statusTip">
+                 <string>Starts Scraping</string>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QPushButton:pressed {background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(70, 73,75, 240), stop:1 rgba(50,180 , 255, 255));
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: grey;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;}
+.QPushButton { background-color: qlineargradient(spread:pad, x1:1, y1:0.551, x2:1, y2:0, stop:0 rgba(10, 13,15, 255), stop:1 rgba(20,80 , 180, 255));
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    font: bold 14px;
+	color:grey;
+    min-width: 6em;
+    padding: 6px;}
+</string>
+                </property>
+                <property name="text">
+                 <string>Arrear</string>
+                </property>
+                <property name="autoDefault">
+                 <bool>true</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1" colspan="4">
+               <widget class="Line" name="line_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="3">
+               <spacer name="verticalSpacer_11">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Expanding</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>17</width>
+                  <height>198</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="4">
+               <widget class="QLabel" name="ScpLbDL">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>18</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="text">
+                 <string>Download</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLabel" name="ScpLbURL">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>18</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Results URL</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <spacer name="verticalSpacer_5">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>5</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1350</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnalyse"/>
+    <addaction name="actionScrap"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionD_Settings"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="separator"/>
+   <addaction name="actionScrap"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionScrap">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../VTUMarksAnalysis/bin/icon/Internet.png</normaloff>../../../VTUMarksAnalysis/bin/icon/Internet.png</iconset>
+   </property>
+   <property name="text">
+    <string>Scrap</string>
+   </property>
+   <property name="statusTip">
+    <string>collect data from web / from vtu website</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionD_Settings">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../VTUMarksAnalysis/bin/icon/Settings.ico</normaloff>../../../VTUMarksAnalysis/bin/icon/Settings.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Default Settings</string>
+   </property>
+   <property name="statusTip">
+    <string>set the costume settings to default</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../project files/python/qtui-py/icon/Help and support.ico</normaloff>../../../project files/python/qtui-py/icon/Help and support.ico</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="statusTip">
+    <string>about the developers</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionDocs">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../project files/python/qtui-py/icon/doc file.png</normaloff>../../../project files/python/qtui-py/icon/doc file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Docs</string>
+   </property>
+   <property name="toolTip">
+    <string>Documentation</string>
+   </property>
+   <property name="statusTip">
+    <string>documentation for the application</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionAnalyse">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../VTUMarksAnalysis/bin/icon/bw-analysis.png</normaloff>../../../VTUMarksAnalysis/bin/icon/bw-analysis.png</iconset>
+   </property>
+   <property name="text">
+    <string>Analyse</string>
+   </property>
+   <property name="statusTip">
+    <string>analyse the data/marks</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="statusTip">
+    <string>closes the appliction</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionPref">
+   <property name="text">
+    <string>Preferenceses</string>
+   </property>
+   <property name="statusTip">
+    <string>change the prefrencess</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../VTUMarksAnalysis/bin/icon/FolderGrey.png</normaloff>../../../VTUMarksAnalysis/bin/icon/FolderGrey.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="toolTip">
+    <string>for new database</string>
+   </property>
+   <property name="statusTip">
+    <string>create,edit,scrap the marks</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>EdbtnRst</sender>
+   <signal>clicked()</signal>
+   <receiver>EdtblW</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1008</x>
+     <y>874</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>821</x>
+     <y>524</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

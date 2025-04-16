@@ -1,0 +1,94 @@
+Engineering Mathematics-III
+Material Science
+Basic Thermodynamics
+Mechanics of Materials
+Metal Casting and Welding
+Machine Tools and Operations
+Computer Aided Machine Drawing
+Mechanical Measurements and Metrology
+Materials Testing Lab
+Mechanical Measurements and Metrology Lab
+Foundry and Forging Lab
+Machine Shop
+Additional Mathematics-I
+Engineering Mathematics - IV
+Kinematics of Machinery
+Applied Thermodynamics
+Fluid mechanics
+Metal Casting and Welding
+Machine Tools and Operations
+Computer Aided Machine Drawing
+Mechanical Measurements and Metrology
+Materials Testing Lab
+Mechanical Measurements and Metrology Lab
+Machine Shop
+Foundry and Forging Lab
+Additional Mathematics-II
+Management and Engineering Economics
+Dynamics of Machinery
+Turbo Machines
+Design of Machine Elements - I
+Refrigeration and Air-conditioning
+Theory of Elasticity
+Human Resource Management
+Non Traditional Machining
+Optimization Techniques
+Energy and Environment
+Automation and Robotics
+Project Management
+Computer Integrated Manufacturing
+Design of Heat Exchangers
+Design of Machine Elements II
+Finite Element Methods
+Heat and Mass Transfer
+Knowledge Management
+Mechanics of Composite Materials
+Mechatronics and Microprocessor
+Non Traditional Machining
+Project Management
+Refrigeration and Air Conditioning
+Statistical Quality Control
+Theory of Elasticity
+HEAT and MASS TRANSFER LABORATORY 
+COMPUTER AIDED MODELING AND ANALYSIS LABORATORY 
+Agile Manufacturing
+Automation in Manufacturing
+Cryogenics
+Economics
+Engineering Design
+Experimental Stress Analysis
+Finance Management
+Gas Dynamics
+Hydraulics and Pneumatics
+Management Information System
+Mechanical Vibrations
+Mechanism Design
+Micro and Smart System Technology
+Non Conventional Energy Sources
+Operations Research
+Product Life Cycle Management
+Robotics
+Smart Materials
+Theory of Plasticity
+Tool Design
+Total Quality Management
+DESIGN LABORATORY 
+CIM and AUTOMATION LAB 
+Artificial Intelligence
+Automotive Engineering
+Bio Mass Energy Systems
+Computer Graphics
+Control Engineering
+Database Management System
+Design for Manufacture and Assembly
+Design of Experiments
+Foundry Technology
+Fracture Mechanics
+Industrial Engineering and Ergonomics
+Machine Tool Design
+Nanotechnology
+Operations Management
+Organisational Behaviour and Professional Communication
+Power Plant Engineering
+Rapid Prototyping
+Tribology
